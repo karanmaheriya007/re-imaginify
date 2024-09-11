@@ -1,0 +1,6 @@
+{
+    "rules": {
+        "no-unused-vars": "off", // Disable the rule completely
+        "react/prop-types": "off" // Example to disable prop-types warnings
+    }
+}
