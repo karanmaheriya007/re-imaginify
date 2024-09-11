@@ -3,7 +3,7 @@ import React from 'react'
 const AddTransformationTypePage = () => {
   return (
     <div>
-      AddTransformationTypePage
+      AddTransformationTypePage2
     </div>
   )
 }
