@@ -1,0 +1,73 @@
+1. npx create-next-app@latest ./ (for create app in created folder)
+
+2. npx shadcn@latest init (Beautifully designed components that you can copy and paste into your apps.) https://ui.shadcn.com/
+
+3. npm run dev (run the application)
+
+4. Modify Metadata and apply font (layout.tsx)
+
+5. Change file content "tailwind.config.ts"
+
+6. Copy public folder for assets, images
+
+7. use Route groups (https://nextjs.org/docs/app/building-your-application/routing/route-groups)
+
+8. create (auth) folder
+
+9. create (root) folder
+
+10. move page.tsx into (root) folder
+
+11. create credits, profile & transformations folder
+
+12.create update folder in transformations/[id]
+
+13.create transformations/add/[type] folder
+
+14. Clerk authentication (The most comprehensive User Management Platform) https://clerk.com/
+
+15. set environment variable from clerk into .env.local
+
+16. npm install @clerk/nextjs
+
+17. implement ClerkProvider into app/layout.tsx
+
+18. create middleware.ts and paste code from clerk (https://dashboard.clerk.com/apps/app_2dUnJITEnAkmiSxwdyWPLqHE0FW/instances/ins_2dUnJEBeYVg5nrAXvviCoVqOsAj)
+
+19. create (auth)/sign-up/[[...sign-up]]/page.tsx
+
+20. create (auth)/sign-in/[[...sign-in]]/page.tsx
+
+21. set some variables in .env.local
+
+22. update (root)/page.tsx
+
+23. update app/layout.tsx
+
+24. update globals.css
+
+25. create constants/index.ts
+
+26. npx shadcn@latest add button (install button component) which creates components/ui/button.tsx
+
+27. create folder components/shared/Sidebar.tsx
+
+28. create folder components/shared/MobileNav.tsx
+
+29. npx shadcn@latest add sheet (install sheet component) which creates components/ui/sheet.tsx
+
+30. Databases & Models setup
+
+31. Open MongoDB Atlas & create project
+
+32. paste copied MongoDB URL in .env.local
+
+33. install MongoDB & mongoose (npm install mongodb mongoose)
+
+34. create lib/database/mongoose.ts
+
+35. create lib/database/models/image.model.ts
+
+36. create lib/database/models/user.model.ts
+
+37. create lib/database/models/transaction.model.ts
